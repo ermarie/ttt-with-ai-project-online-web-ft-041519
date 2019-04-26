@@ -43,7 +43,7 @@ class Board
 
   def valid_move?(input)
     binding.pry
-    if position(input) == " " && input.to_i.include? (/[1-9]/)
+  #  if position(input) == " " && input.to_i.include? (/[1-9]/)
       true
     else
       false
