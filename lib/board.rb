@@ -12,9 +12,15 @@ class Board
 
   def display
     puts " #{@cells[0]} | #{@cells[1]} | #{@cells[2]} "
+<<<<<<< HEAD
     puts "-----------"
     puts " #{@cells[3]} | #{@cells[4]} | #{@cells[5]} "
     puts "-----------"
+=======
+
+    puts " #{@cells[3]} | #{@cells[4]} | #{@cells[5]} "
+
+>>>>>>> dc46b61ab1e383bcf87314c1940492f4af9457db
     puts " #{@cells[6]} | #{@cells[7]} | #{@cells[8]} "
   end
 
@@ -26,6 +32,7 @@ class Board
     @cells.select { |cell| cell != " " }.length
   end
 
+<<<<<<< HEAD
   def position(input)
     @cells[input.to_i - 1]
   end
@@ -43,4 +50,6 @@ class Board
     end
   end
 
+=======
+>>>>>>> dc46b61ab1e383bcf87314c1940492f4af9457db
 end
